@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e8c6c6;
+    background-image:url('nature1.jpg');
+    background-size: cover;
+    background-position: no-repeat;
+    
+
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.stopwatch-container {
+    background-color: #e15b66;
+    background-image: linear-gradient(to bottom right, #e62236, #e38e5d, #35607c, #19252e);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* height: 180px; */
+    width:360px;
+}
+
+.stopwatch {
+    text-align: center;
+    margin-bottom:30px;
+   
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+button {
+    flex: 1;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #080a09;
+    color: white;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #180437;
+}
+
+.display {
+    margin-bottom: 20px;
+}
+
+#stopwatchTime {
+    font-size: 40px;
+    margin:0;
+    
+}
+
+#lapTimes {
+    list-style-type: none;
+    padding: 0;
+}
+
+#lapTimes li {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+ 
